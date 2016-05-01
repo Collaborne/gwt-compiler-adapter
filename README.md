@@ -5,6 +5,19 @@ A simple wrapper for the standard compiler used by GWT to increase the logging.
 
 See https://github.com/gwtproject/gwt/issues/4170#issuecomment-110767227 for the original idea and sources.
 
+## Usage
+
+1. Add the `gwt-compiler-adapter` dependency to `pom.xml`
+~~~~
+<dependency>
+    <groupId>com.collaborne.build</groupId>
+    <artifactId>gwt-compiler-adapter</artifactId>
+    <version>1.1</version>
+    <scope>test</scope>
+</dependency>
+~~~~
+2. Add `-Dgwt.compiler=com.collaborne.build.gwt.GWTCompiler` to the VM arguments of the GWT SuperDevMode launcher
+
 ## License
 
     This software is licensed under the Apache 2 license, quoted below.
