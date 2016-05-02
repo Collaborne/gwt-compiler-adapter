@@ -8,14 +8,14 @@ See https://github.com/gwtproject/gwt/issues/4170#issuecomment-110767227 for the
 ## Usage
 
 1. Add the `gwt-compiler-adapter` dependency to `pom.xml`
-~~~~
-<dependency>
-    <groupId>com.collaborne.build</groupId>
-    <artifactId>gwt-compiler-adapter</artifactId>
-    <version>1.1</version>
-    <scope>test</scope>
-</dependency>
-~~~~
+   ~~~~
+   <dependency>
+     <groupId>com.collaborne.build</groupId>
+     <artifactId>gwt-compiler-adapter</artifactId>
+     <version>1.1</version>
+     <scope>test</scope>
+   </dependency>
+   ~~~~
 2. Add `-Dgwt.compiler=com.collaborne.build.gwt.GWTCompiler` to the VM arguments of the GWT SuperDevMode launcher
 
 ## License
