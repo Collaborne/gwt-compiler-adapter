@@ -16,6 +16,7 @@ See https://github.com/gwtproject/gwt/issues/4170#issuecomment-110767227 for the
      <scope>test</scope>
    </dependency>
    ~~~~
+
 2. Add `-Dgwt.compiler=com.collaborne.build.gwt.GWTCompiler` to the VM arguments of the GWT SuperDevMode launcher
 
 ## License
